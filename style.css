@@ -1,0 +1,126 @@
+body {
+  display: block;
+  background-color: #1b1b1b;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  display: block;
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  border-right: 3px solid #545454;
+  margin: 0;
+  padding: 0;
+}
+#navbar header {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 0.3em;
+  color: azure;
+  text-align: center;
+}
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li {
+  border-bottom: 3px;
+  border-style: solid hidden hidden hidden;
+  border-color: rgb(174, 173, 173);
+}
+#navbar li:hover {
+  background-color: #545454;
+}
+.nav-link {
+  display: inline-block;
+  width: 90%;
+  height: auto;
+  margin: 0;
+  padding: 1em;
+  text-align: start;
+  color: azure;
+  text-decoration: none;
+}
+#main-doc {
+  display: block;
+  margin: 0 2% 0 25%;
+  padding: 2% 2% 0 3%;
+  width: 70%;
+  height: 100%;
+  color: #fff;
+}
+.section_header {
+  font-size: 2em;
+  font-weight: bold;
+}
+a {
+  color: rgb(175, 183, 255);
+}
+code {
+  background-color: rgb(79, 78, 78);
+  border-radius: 3px;
+  padding: 0 3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.code-field {
+  display: block;
+  width: 90%;
+  height: auto;
+  border: 3px;
+  border-radius: 0.5em;
+  margin: 10px 3% 10px 3%;
+  padding: 1em;
+}
+.span-purple {
+  color: rgb(155, 72, 155);
+}
+.span-pink {
+  color: rgb(221, 137, 151);
+}
+.span-grey {
+  color: grey;
+}
+.span-green {
+  color: rgb(0 208 97 / 40%);
+}
+img {
+  width: 95%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.ruleset-h5 {
+  font-size: 1.3em;
+}
+th, td , table{
+  width: auto;
+  height: 60px;
+  border: 2px solid white;  
+  border-collapse: collapse;
+  text-align: center;
+  padding: 2px;
+}
+@media only screen and (max-width: 800px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    border-bottom: 3px solid #545454;
+    left: 0;
+    top: 0;
+  }
+  .nav-link {
+    padding-left: 2em;
+  }
+  #main-doc {
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+    height: auto;
+  }
+}
